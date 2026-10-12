@@ -1,5 +1,8 @@
+import matplotlib
 import pandas as pd
 from matplotlib import pyplot as plt
+
+matplotlib.use('TkAgg')   
 
 df = pd.read_csv("self_imporvement_dataset.csv")
 
@@ -37,7 +40,7 @@ print(df.describe())
 
 """Task 5"""
 
-# Class Distribution
+# Class Distribution Bar Chart
 df["label"].value_counts().sort_index().plot(kind="bar")
 
 plt.xlabel("Label")
