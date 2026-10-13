@@ -50,8 +50,8 @@ X_test_scaled = scaler.transform(X_test)
 # 5. Build a Decision Tree
 # ------------------------------------------------------------
 dt = DecisionTreeClassifier(max_depth=3, random_state=42)
-dt.fit(X_train, y_train)
-y_pred_dt = dt.predict(X_test)
+dt.fit(X_train, y_train) # Training our model via our inputs (as X_train) and outputs / label (as y_train)
+y_pred_dt = dt.predict(X_test) # Making predictions on the test set after training the model
 
 print("=== Decision Tree ===")
 print(f"Accuracy:  {accuracy_score(y_test, y_pred_dt):.4f}")
@@ -72,7 +72,7 @@ print("Decision tree visualization saved as 'decision_tree.png'\n")
 # 6. Train Logistic Regression
 # ------------------------------------------------------------
 lr = LogisticRegression(max_iter=1000, random_state=42)
-lr.fit(X_train_scaled, y_train)
+lr.fit(X_train_scaled, y_train) # Stores scaled values in the model same as KNN
 y_pred_lr = lr.predict(X_test_scaled)
 
 print("=== Logistic Regression ===")
