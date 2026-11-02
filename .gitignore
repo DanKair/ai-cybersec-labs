@@ -97,5 +97,8 @@ venv.bak/
 # PyPI configuration file
 .pypirc
 
+# Lab Specific
+#*_report.md
+
 
 
