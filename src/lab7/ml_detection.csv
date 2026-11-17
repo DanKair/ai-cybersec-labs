@@ -1,0 +1,21 @@
+id,video_title,title_length,contains_number,has_uppercase_words,day_since_published,views_count,true_label,predicted,probability_viral,outcome
+11,"If You're Ambitious but Lazy, Watch This Samurai Lesson (Kaizen Method to Success)",82,0,0,164,1607970,1,0,0.351,FN
+49,This Could Be The Most Life-Changing Video You Watch Today,58,0,0,80,2490569,1,0,0.372,FN
+17,How I Use AI to Learn Things,28,0,1,50,873581,1,1,0.634,TP
+3,The Art of Winning at Anything (Even If You’re Lost Right Now),62,0,0,159,1175740,1,0,0.388,FN
+27,Why hard work isn't enough to get ahead in your career,54,0,0,87,15378,0,0,0.381,TN
+37,I'm so sick of being a loser,28,0,0,262,182,0,0,0.489,TN
+48,How to Fall in Love With Your Life Again,40,0,0,1,317,0,0,0.382,TN
+43,Psychology says you can land any job once you understand these 6 principles,75,1,0,293,1114907,1,0,0.458,FN
+45,how to overcome your fear of public speaking,44,0,0,338,64806,0,0,0.481,TN
+52,"When Life Puts You In a Bad Situation, Ask Yourself This",56,0,0,58,4475,0,0,0.369,TN
+84,How to Ruin Your 20s in 100 Seconds,35,1,0,186,10606,0,1,0.505,FP
+12,the financial advice that changed my life,41,0,0,51,472032,1,0,0.396,FN
+98,How I Figured Out What To Do With My Life After University,58,0,0,1945,2699,0,1,0.868,FP
+79,Why You REALLY Procrastinate (And How To Stop),46,0,1,926,13455,0,1,0.822,FP
+31,The #1 Trait That Almost Guarantees Success,43,1,0,131,19867,0,0,0.471,TN
+92,The Mindset that Changed My Life,32,0,0,264,791590,1,0,0.482,FN
+30,how to force yourself to be consistent and do hard things,57,0,0,348,831967,1,0,0.457,FN
+63,The Secret to Winning in Life - Winners' Matrix,47,0,0,413,31369,0,0,0.499,TN
+9,How to Actually Lock In At School,33,0,0,20,552366,1,0,0.402,FN
+65,How to STOP wasting your LIFE,29,0,1,1100,127947,1,1,0.87,TP
