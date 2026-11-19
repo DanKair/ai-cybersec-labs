@@ -1,0 +1,11 @@
+pair,image_1,image_2,ground_truth,hamming_distance,decision,correct,orb_score,orb_decision,orb_correct
+1,iris_dataset\iris_01\image_01.jpg,iris_dataset\iris_01\image_03.jpg,SAME,0.1705,MATCH,True,54,MATCH,True
+2,iris_dataset\iris_02\image_01.jpg,iris_dataset\iris_02\image_03.jpg,SAME,0.376,NO MATCH,False,57,MATCH,True
+3,iris_dataset\iris_03\image_01.jpg,iris_dataset\iris_03\image_03.jpg,SAME,0.2214,MATCH,True,110,MATCH,True
+4,iris_dataset\iris_04\image_01.jpg,iris_dataset\iris_04\image_03.jpg,SAME,0.2511,MATCH,True,21,MATCH,True
+5,iris_dataset\iris_05\image_01.jpg,iris_dataset\iris_05\image_03.jpg,SAME,0.2532,MATCH,True,34,MATCH,True
+6,iris_dataset\iris_01\image_01.jpg,iris_dataset\iris_02\image_01.jpg,DIFFERENT,0.4112,NO MATCH,True,3,NO MATCH,True
+7,iris_dataset\iris_02\image_01.jpg,iris_dataset\iris_03\image_01.jpg,DIFFERENT,0.4357,NO MATCH,True,6,NO MATCH,True
+8,iris_dataset\iris_03\image_01.jpg,iris_dataset\iris_04\image_01.jpg,DIFFERENT,0.4574,NO MATCH,True,0,NO MATCH,True
+9,iris_dataset\iris_04\image_01.jpg,iris_dataset\iris_05\image_01.jpg,DIFFERENT,0.4785,NO MATCH,True,2,NO MATCH,True
+10,iris_dataset\iris_05\image_01.jpg,iris_dataset\iris_01\image_01.jpg,DIFFERENT,0.3878,NO MATCH,True,7,NO MATCH,True

@@ -1,0 +1,21 @@
+finger,level,rotation_deg,area_kept,noise_std,smudge_sigma,orb_score,ransac_inliers,decision
+finger_01,mild,5,0.95,5,0.0,514,514,MATCH
+finger_01,medium,15,0.8,12,0.0,403,396,MATCH
+finger_01,hard,30,0.65,20,0.8,68,65,MATCH
+finger_01,extreme,45,0.5,35,1.2,17,15,MATCH
+finger_02,mild,5,0.95,5,0.0,510,500,MATCH
+finger_02,medium,15,0.8,12,0.0,409,403,MATCH
+finger_02,hard,30,0.65,20,0.8,81,70,MATCH
+finger_02,extreme,45,0.5,35,1.2,12,9,NO MATCH
+finger_03,mild,5,0.95,5,0.0,665,659,MATCH
+finger_03,medium,15,0.8,12,0.0,467,459,MATCH
+finger_03,hard,30,0.65,20,0.8,57,54,MATCH
+finger_03,extreme,45,0.5,35,1.2,16,14,MATCH
+finger_04,mild,5,0.95,5,0.0,493,487,MATCH
+finger_04,medium,15,0.8,12,0.0,282,278,MATCH
+finger_04,hard,30,0.65,20,0.8,35,32,MATCH
+finger_04,extreme,45,0.5,35,1.2,3,0,NO MATCH
+finger_05,mild,5,0.95,5,0.0,370,356,MATCH
+finger_05,medium,15,0.8,12,0.0,252,242,MATCH
+finger_05,hard,30,0.65,20,0.8,22,16,MATCH
+finger_05,extreme,45,0.5,35,1.2,0,0,NO MATCH

@@ -99,6 +99,8 @@ venv.bak/
 
 # Lab Specific
 #*_report.md
+src/lab8-biometrics/data/student_faces/*/
+src/lab8-biometrics/results/face/*
 
 
 

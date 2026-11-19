@@ -1,0 +1,36 @@
+# --- Biometric privacy (lab requirement §8): never commit real student photos ---
+data/student_faces/*/*
+!data/student_faces/*/.gitkeep
+data/group_photos/*
+!data/group_photos/.gitkeep
+!data/group_photos/ground_truth.example.csv
+*.zip
+face_results.csv
+report/
+
+# extracted templates / embeddings must not be published either
+*.pkl
+*.npy
+*.npz
+# After you run the notebook on REAL photos, these folders contain your faces too.
+# If the repository is PUBLIC, uncomment the next lines (submit them to the teacher directly instead):
+# results/face/*.png
+# results/face/*.jpg
+# results/screenshots/
+# Lab8_Biometrics.ipynb   (its outputs embed the photos; or clear outputs before pushing)
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Gradio temp files
+.gradio/
+flagged/
+
+# OS junk
+.DS_Store
+__MACOSX/
+Thumbs.db

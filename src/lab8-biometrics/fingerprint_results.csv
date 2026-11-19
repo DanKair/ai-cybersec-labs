@@ -1,0 +1,11 @@
+pair,image_1,image_2,ground_truth,orb_score,orb_decision,ransac_inliers,decision,correct,orb_correct,minutiae_1,minutiae_2
+1,fingerprint_dataset\finger_01\image_01.bmp,fingerprint_dataset\finger_01\image_02.bmp,SAME,1012,MATCH,1012,MATCH,True,True,55,47
+2,fingerprint_dataset\finger_02\image_01.bmp,fingerprint_dataset\finger_02\image_02.bmp,SAME,869,MATCH,863,MATCH,True,True,24,26
+3,fingerprint_dataset\finger_03\image_01.bmp,fingerprint_dataset\finger_03\image_02.bmp,SAME,606,MATCH,599,MATCH,True,True,43,41
+4,fingerprint_dataset\finger_04\image_01.bmp,fingerprint_dataset\finger_04\image_02.bmp,SAME,757,MATCH,754,MATCH,True,True,40,39
+5,fingerprint_dataset\finger_05\image_01.bmp,fingerprint_dataset\finger_05\image_02.bmp,SAME,822,MATCH,816,MATCH,True,True,33,36
+6,fingerprint_dataset\finger_01\image_01.bmp,fingerprint_dataset\finger_02\image_01.bmp,DIFFERENT,10,NO MATCH,2,NO MATCH,True,True,55,24
+7,fingerprint_dataset\finger_02\image_01.bmp,fingerprint_dataset\finger_03\image_01.bmp,DIFFERENT,6,NO MATCH,2,NO MATCH,True,True,24,43
+8,fingerprint_dataset\finger_03\image_01.bmp,fingerprint_dataset\finger_04\image_01.bmp,DIFFERENT,4,NO MATCH,2,NO MATCH,True,True,43,40
+9,fingerprint_dataset\finger_04\image_01.bmp,fingerprint_dataset\finger_05\image_01.bmp,DIFFERENT,5,NO MATCH,2,NO MATCH,True,True,40,33
+10,fingerprint_dataset\finger_05\image_01.bmp,fingerprint_dataset\finger_01\image_01.bmp,DIFFERENT,9,NO MATCH,3,NO MATCH,True,True,33,55

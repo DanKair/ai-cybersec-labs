@@ -1,0 +1,14 @@
+# Lab 8 — Biometric Identification (local run). On Google Colab the notebook installs
+# what it needs itself (`!pip install deepface gradio`), everything else is preinstalled.
+deepface>=0.0.93        # face detection + FaceNet512 embeddings
+tensorflow>=2.16        # backend for deepface
+tf-keras>=2.16          # required by deepface on TensorFlow >= 2.16
+gradio>=4.0             # interactive "Upload Photo" web interface
+opencv-python>=4.8      # image processing, ORB, Hough circles
+scikit-image>=0.21      # skeletonize (fingerprint ridges)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+pillow>=10.0
+tabulate>=0.9           # pandas.to_markdown for the comparison table
+jupyter                 # run the notebook locally
